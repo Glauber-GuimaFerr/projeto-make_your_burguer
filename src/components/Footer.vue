@@ -1,5 +1,7 @@
 <template>
-    <p>Footer</p>
+    <footer id="footer">
+        <p>Make Your Burger &copy; 2021</p>
+    </footer>
 </template>
 
 <script>
@@ -7,3 +9,18 @@ export default{
     name: 'Footer'
 }
 </script>
+
+<style scoped>
+    #footer{
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        bottom: 0px;
+        background-color: #222;
+        border-top: 4px solid #111;
+        color: #fcba03;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+</style>

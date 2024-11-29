@@ -12,7 +12,7 @@ export default{
   components: {
     Navbar,
     Footer
-  }  ,
+  },
   data(){
     return{
       logo_src: '/img/logo.png',

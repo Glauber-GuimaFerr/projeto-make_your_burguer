@@ -104,6 +104,18 @@
         "Cebola roxa"
       ],
       "status": "Solicitado"
+    },
+    {
+      "id": "dfb0",
+      "nome": "Paulo Matias",
+      "carne": "Alcatra",
+      "pao": "Parmesão e Orégano",
+      "opcionais": [
+        "Cheddar",
+        "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado"
     }
   ]
 }

@@ -91,7 +91,7 @@
         "Bacon",
         "Pepino"
       ],
-      "status": "Solicitado"
+      "status": "Em produção"
     },
     {
       "id": "6db2",
@@ -113,6 +113,17 @@
       "opcionais": [
         "Cheddar",
         "Tomate",
+        "Pepino"
+      ],
+      "status": "Solicitado"
+    },
+    {
+      "id": "37d8",
+      "nome": "Jurandir",
+      "carne": "Alcatra",
+      "pao": "3 Queijos",
+      "opcionais": [
+        "Bacon",
         "Pepino"
       ],
       "status": "Solicitado"

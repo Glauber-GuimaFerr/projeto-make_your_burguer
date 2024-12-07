@@ -24,7 +24,6 @@
                 </div>
                 <div>
                     <select name="status" class="status" @change="updateBurger($event, burger.id)">
-                        <option value="">Selecione</option>
                         <option v-for="s in status" :key="s.id" :value="s.tipo" :selected="burger.status == s.tipo">{{ s.tipo }}</option>
                     </select>
                     <button class="delete-btn" @click="deleteBurger(burger.id)">Cancelar</button>
@@ -80,7 +79,7 @@ export default{
                 body: dataJson
             })
             const res = await req.json()
-            this.msg = `Pedido N° ${res.id} atualizado para ${res.status}`
+            this.msg = `Pedido N° ${res.id} atualizado para "${res.status}"`
             setTimeout(() => this.msg = "", 5000)
         }
     },
@@ -93,7 +92,7 @@ export default{
 <style scoped>
     #burger-table{
         max-width: 1200px;
-        margin: 0 auto;
+        margin: 0px auto;
     }
 
     #burger-table-heading, #burger-table-rows, .burger-table-row{

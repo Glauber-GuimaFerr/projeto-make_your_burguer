@@ -150,7 +150,7 @@ export default{
         border: 2px solid #222;
         padding: 10px;
         font-size: 16px;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
         cursor: pointer;
         transition: .5s;
     }

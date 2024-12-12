@@ -1,19 +1,16 @@
 # projeto-make_your_burguer
 
-## Project setup
+## Setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila e faz o hot reload 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compila e facilita a transcrição
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
